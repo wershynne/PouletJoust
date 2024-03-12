@@ -1,0 +1,12 @@
+Node3D
+MeshInstance3D
+AnimationPlayer
+Sprite3D
+GPUParticles3D
+MultiMeshInstance3D
+FogVolume
+WorldEnvironment
+DirectionalLight3D
+LightmapGI
+LightmapProbe
+Camera3D
