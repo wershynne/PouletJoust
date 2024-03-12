@@ -1,0 +1,17 @@
+Concept: 2D game Ship Chicken
+A ship and a submarine chained together, top screen WASD and bottom screen keyboard for two players
+There's a good amount of slack but they can mess with each other
+The submarine has bigger obstacles to dodge but the ship has weather to deal with
+Really just a ship sprite and submarine sprite layered on top of a background that keeps coming to the camera
+Mines, Rocks, Waves, Lightning, Geysers, Torpedoes and Cannons from other ships nearby
+Either one speeds up, both are dragged to speed
+5 hp each and no chances for healing, it's a short me vs you 
+Once speed is high, BOTH have to choose to slow down to successfully power down
+Some obstacles spaced to that it's impossible for both to be unscathed
+WW2 setting probably
+Soviet sub vs German ship
+Game sounds become louder as speed increases
+NO MAX SPEED, if they keep ramping up someone dies
+
+
+Maybe ship selection, bigger=more pull on enemy but slower to evade and bigger target

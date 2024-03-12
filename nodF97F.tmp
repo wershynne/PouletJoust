@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://b48lj8yosjhjs"]
+
+[ext_resource type="Script" path="res://MeshInstance3D.gd" id="1_1hocp"]
+[ext_resource type="Script" path="res://Camera3D.gd" id="1_oc2kk"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_5kofb"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0171147, 0, 3.5323)
+script = ExtResource("1_oc2kk")
+
+[node name="Ship" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.0137179, -0.999906, 0, 0.999906, -0.0137179, -0.0740316, 1.02307, -1.58187)
+mesh = SubResource("CylinderMesh_5kofb")
+script = ExtResource("1_1hocp")
+
+[node name="Sub" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.0384053, 0.999263, 0, -0.999263, 0.0384053, -0.0486138, -0.883205, -1.65066)
+mesh = SubResource("CylinderMesh_5kofb")
+skeleton = NodePath("../Ship")
