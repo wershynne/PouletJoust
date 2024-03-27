@@ -10,7 +10,9 @@
 
 <h2>Goal and requirements</h2>
 The main goal is to have a functioning difficulty system, obstacle emergence and randomization, health systems, 
-environmental effects, and competitive incidents following certain actions.
+environmental effects, and competitive incidents following certain actions. The player should have the capacity to
+survive an onslought of waves while being able to win when their opponent is destroyed, and be able to pick up items
+for healing and adding more obstacles to their opponents. There may be a mechanic for players to have slowly reloading ammunition to get rid of impossible obstacles in front of them.
 
  
  <h3>Sprint Goal</h3>
